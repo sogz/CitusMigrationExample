@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "DataMigration.TestProject": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MYSQL_URI": "server=localhost;port=13038;database=bigsale;user=root;password=root;Max Pool Size=20;Min Pool Size=10;Pooling=true",
+        "POSTGRESQL_URI": "User ID=postgres;Password=123456;Host=localhost;Port=5432;Database=postgres;Pooling=true;Connection Lifetime=0;"
+      }
+    }
+  }
+}
